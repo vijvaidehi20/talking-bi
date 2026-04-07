@@ -10,7 +10,7 @@ Flow:
     ├── aggregation → handle_aggregation()        [deterministic, no LLM]
     └── analytical  → LLM query engine           [LLM, with fallback]
 """
-
+# controller,routes queries, combines output
 import re
 import pandas as pd
 import traceback

@@ -1,7 +1,7 @@
 import pandas as pd
 from services.data_service import get_dataframe, get_data_summary
 from services.llm_service import call_llm_json, INSIGHT_SYSTEM, is_llm_available
-
+# std mean variation
 
 def generate_insights(dataset_id: str) -> list[dict]:
     """Auto-generate ranked insights for a dataset."""

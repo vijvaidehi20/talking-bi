@@ -4,7 +4,7 @@ Deterministic Handlers — pure pandas logic, no LLM required.
 Each handler returns the standard response shape:
   { "answer": str, "chart_config": dict|None, "follow_ups": list, "data_table": list|None }
 """
-
+# summary handler, columns handler, stats handler
 import pandas as pd
 from services.data_service import get_safe_categorical, get_safe_numeric
 
